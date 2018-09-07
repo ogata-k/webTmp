@@ -6,4 +6,4 @@ import System.Process
 import Control.Monad
 
 doStarts :: [String] -> IO ()
-doStarts = mapM_ $ system . ("start " ++)
+doStarts = mapM_ $ system . ("xdg-open " ++)

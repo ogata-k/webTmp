@@ -2,3 +2,4 @@
 webTmp.cabal
 *~
 !/.webTmp.exe
+!/.webTmp
